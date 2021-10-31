@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col s12 m4 l8">
+            <span class="date">2020</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">sports_soccer</i>
+                        <a href="/timeline" class="title">[job] Austin FC</a>
+                    </div>
+                    <span class="content">
+                        Joined the newest MLS expansion franchise, Austin FC as their Director of Analytics.
+                        As a new soccer club, there was no existing technology infrastructure, and I was given the task
+                        of prioritizing a vision for data use across the club, including: Scouting, Coaching, and Physical Performance.
+                        Additionally, I spent the first year with the club personally developing an internal analytics platform
+                        to deliver insights to these stakeholders. This end-to-end solution was developed without any technical
+                        support and entirely on cloud-native solutions. <br>
+                    </span>
+                    <span class="tech">
+                        ETL: python | Orchestration: Prefect | DB: Snowflake
+                        | EDA: Tableau | Front End: Flask, JS, HTML, CSS, plotly | Modeling: sklearn, pymc3
+                        | Hosting: Elastic Beanstalk | CI/CD: Codedeploy | Remote computing: ECR, EC2
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="col s12 m4 l8">
+            <span class="date">2019</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">sports_soccer</i>
+                        <a href="/timeline" class="title">[hackathon] Kaggle Silver Medal</a>
+                    </div>
+                    <span class="content">
+                         Placed 26/862 in annual Kaggle NCAA March Madness competition <br>
+                         Used MC simulation along with ML approaches to predict NCAA Men's basketball tournament <br>
+                    </span>
+                    <a href="https://www.kaggle.com/c/mens-machine-learning-competition-2019/leaderboard"> Earned Kaggle Silver Medal </a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="col s12 m4 l8">
+            <span class="date">2018</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">[edu] Georgia Tech</a>
+                    </div>
+                    <span class="content">
+                        Enrolled in Georgia Tech's Masters of Analytics program. <br>Coursework included:
+                        Bayesian Statistics, Simulation, ML for Trading, Data and Visual Analytics<br>
+                        Thesis: QBViz - A modern framework for evaluating quarterback decision-making in the NFL.
+                    </span>
+                    <a href="https://pe.gatech.edu/blog/working-learning/data-data-everywhere">Read about my time at Georgia Tech here</a>
+
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span class="date">2017</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">sports_basketball</i>
+                        <a href="/timeline" class="title">[job] Utah Jazz</a>
+                    </div>
+                    <span class="content">
+                        Began work for the Utah Jazz leading their analytics department.
+                        Managed all aspects of data for basketball operations including coaching, scouting, college draft, and sports science.
+                        Architected a full-stack analytics platform used by coaches, scouts, and senior management.
+                        Developed models for NBA player valuation and projecting NCAA players to NBA.
+                        Integrated quantitative and qualitative data sources into a single report to streamline decision-making process.
+                        Developed new metrics to better describle player impact than traditional box-score metrics.
+                    </span>
+                    <span class="tech">
+                        ETL: python | DB: Snowflake | EDA: Tableau | Front End: Flask, Dash, HTML, CSS, plotly | Modeling: sklearn, pymc3
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span class="date">2015</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="/timeline" class="title">[job] Fanduel</a>
+                    </div>
+                    <span class="content">
+                        Joined the leader in Daily Fantasy sports in 2015 at the height of the Daily Fantasy craze. <br>
+                        Managed COE for the Business Intelligence capacity within Fanduel, partnering with Product, CRM, Ops,
+                        and predictive modeling groups. <br>
+                        Lead RFP for in-house BI tool, selecting Chartio and establishing best practices across the analyst community. <br>
+                        Developed end-to-end analytics solutions including data engineering, SQL development, ML, and reporting.
+                    </span>
+                    <span class="tech">
+                        DB: Redshift | EDA: matplotlib | Reporting: Chartio | Modeling: sklearn, R
+                    </span>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">analytics</i>
+                        <a href="/timeline" class="title">[teaching] General Assembly</a>
+                    </div>
+                    <span class="content">
+                        Taught 12-week Data Analytics evening course with General Assembly. <br>
+                        Educated students on how to use Excel, Tableau, SQL, and Python in analytical projects. <br>
+                        Served as a continuing resource for students
+                    </span>
+                    <span class="tech">
+                        Excel, Tableau, PostgreSQL, python
+                    </span>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">computer</i>
+                        <a href="/timeline" class="title">[hackathon] Sloan Sports Analytics </a>
+                    </div>
+                    <span class="content">
+                        Finalist in the 2015 Sloan Sports Analytics hackathon. <br>
+                        Developed a model to predict pass reception probability from 2015 college football data.
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span class="date">2014</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">settings_voice</i>
+                        <a href="/timeline" class="title">[talks] Data Viz Gone Wrong</a>
+                    </div>
+                    <span class="content">
+                        Speaker at Bay Area Big Data conference 2014 <br>
+                        Talk entitled "Data Viz Gone Wrong" <br>
+                        Covered data viz best practices and how to avoid misleading visualizations <br>
+                    </span>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="/timeline" class="title">[job] HomeAway</a>
+                    </div>
+                    <span class="content">
+                        Lead reporting engineer managing Tableau infrastructure for entire organization. <br>
+                        Architechted reporting portal, guiding users between 1400 reports, optimizing end-user experience <br>
+                        Full-cycle analytical responsibilities: requirements gathering, SQL development, Tableau dashboarding and end-user training.<br>
+                    </span>
+                    <span class="tech">
+                        DB: MSSQL | EDA: Tableau | Reporting: Tableau + Flask
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span class="date">2013</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">list_alt</i>
+                        <a href="/timeline" class="title">[cert] Tableau Certified Trainer</a>
+                    </div>
+                    <span class="content">
+                        Spent 1 week on-site at Tableau HQ as part of the first class of Tableau Certified Trainers<br>
+                        Certified to deliver 40-hour Tableau-branded corporate trainings <br>
+                    </span>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="/timeline" class="title">[job] Interworks</a>
+                    </div>
+                    <span class="content">
+                        Traveled to clients weekly to provide full-cycle BI Consulting & Training services, specializing in Tableau <br>
+                        Designed and deployed reporting solutions for various clients across different industries, including Nike, Facebook, and others <br>
+                        Improved performance / scalability by manipulating database structures and defining clients’ BI processes <br>
+                    </span>
+                    <span class="tech">
+                        DB: MSSQL | EDA: Tableau | Reporting: Tableau
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <br>
+    <br>
+</div>
+
+<!--<li><a href="/projects/" class="title">[]</a>
+    <span class="content"></span></li>-->
+{% endblock %}

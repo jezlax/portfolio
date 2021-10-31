@@ -1,0 +1,42 @@
+[
+  {
+    "year": "Favorites",
+    "books": [
+      {
+        "name": "Superforecasting - The Art and Science of Prediction",
+        "author": "Philip Tetlock",
+        "review": "The preeminent book for anyone who has to make decisions in their life, personally or professionally (read: everyone). Will undoubtedly change the way you think about prediction."
+      },
+      {
+        "name": "Thinking Fast and Slow",
+        "author": "Daniel Kahneman",
+        "review": "At the toy store, a bat and ball cost $1.10 total. If the bat costs $1 more than the ball, how much does the ball cost?"
+      },
+      {
+        "name": "Zen and the Art of Motorcycle Maitenance",
+        "author": "Robert Pirsig",
+        "review": "A book I desperately need to reread. For the linear/rational thinkers among us, we need to be reminded that life sometimes means getting your hands dirty."
+      },
+      {
+        "name": "Think Again",
+        "author": "Adam Grant",
+        "review": "This is basically 'A practical guide to a bayesian lifestyle', without Adam ever using the word Bayesian in the entire book."
+      },
+      {
+        "name": "MVP Machine",
+        "author": "Travis Sawchick",
+        "review": "The first revolution in baseball was finding undervalued players. The next one is taking players and making them better."
+      },
+      {
+        "name": "Range",
+        "author": "David Epstein",
+        "review": "A book that won't make you so bad for having one too many hobbies."
+      },
+      {
+        "name": "The Alchemist",
+        "author": "Paolo Coehlo",
+        "review": "A classic. We can all learn to be a bit more like Santiago and go in the direction that the universe pulls us."
+      }
+    ]
+  }
+]

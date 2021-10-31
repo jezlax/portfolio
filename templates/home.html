@@ -1,0 +1,149 @@
+{% extends "base.html" %} {% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+/>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="{{ url_for('static', filename = 'css/home.css') }}"
+/>
+<script
+  type="text/javascript"
+  src="{{ url_for('static', filename = 'js/home.js') }}"
+></script>
+{% endblock %} {% block body %}
+<div class="container">
+  <div class="wrapper fixed-wrapper">
+    <section id="terminal">
+      <div id="terminal-container">
+        <div class="terminal">
+          <div class="window-title">
+            <div class="win-buttons">
+              <a id="close" class="button" href="#"></a>
+              <a id="min" class="button" href="#"></a>
+              <a id="max" class="button" href="#"></a>
+            </div>
+            <span class="title">sudo life</span>
+          </div>
+          <div class="message">
+            <span class="prompt"
+              ><span class="user">cjez</span><span class="at">@</span
+              ><span class="path">/home/cjez/</span>><span class="caret"
+                >$</span
+              ></span
+            >
+            <span class="typed"></span>
+            <form>
+              ><span class="caret">$</span>&nbsp;<input
+                type="text"
+                name="response"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper scroll-wrapper">
+    <div class="top-text">
+      <p class="text-title desktop-view">Cory</p>
+      <p class="text-title desktop-view">Jez</p>
+      <p class="text-title mobile-view">Cory Jez</p>
+      <p style="font-size: 36px;">💻📊🍷⛳</p>
+      <div class="social-icons">
+        <a target="_blank" href="https://github.com/jezlax">
+          <img class="title-logo" src="static/images/github.svg" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/coryjez/">
+          <img class="title-logo" src="static/images/linkedin-logo.svg" />
+        </a>
+        <a target="_blank" href="https://twitter.com/jezdata">
+          <img class="title-logo" src="static/images/twitter.svg" />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/jez_cory/">
+          <img class="title-logo" src="static/images/insta.svg" />
+        </a>
+      </div>
+    </div>
+    <div class="middle-text">
+      <p class="text-content">
+        I'm a recovering frequentist who is becoming more comfortable with
+        uncertainty every day. I believe that well designed systems can use data
+        to inform decisions better than we can on instinct alone. I believe in
+        the "swiss cheese" method of stacking lots of marginally solid decisions
+        on top of one another. Over time this will yield the most sustainable
+        benefits to an individual or organization. The 49% blackjack player is
+        broke, the 51% blackjack player is a millionaire.
+      </p>
+      <p class="text-content">
+        I work at Austin FC as the director of analytics. I support all data and
+        technology needs for the football club. This includes designing and
+        developing an in-house analytics platform to support all key
+        stakeholders: coaching, scouting, performance, and ownership. This was
+        accomplished with a modern analytics tech stack including Python 🐍,
+        Snwoflake ❄️, Prefect, and Flask/React, all hosted on AWS.
+      </p>
+
+      <p class="text-content">
+        I got my BS in Econ from Virginia Tech
+        <a href="https://vt.edu/">Virginia Tech</a> 🦃 and my MS in Analytics
+        from <a href="https://www.analytics.gatech.edu/">Georgia Tech</a> 🐝.
+      </p>
+
+      <p class="text-content">
+        Outside of my day job, I've been involved in a lot within the data
+        space, including:
+        <li>
+          <a
+            href="https://www.measurablespod.com/officehours#:~:text=Measurables%20Office%20Hours%20are%20intended,adequately%20represented%20in%20the%20field."
+            >hosting office hours for those trying to get into sports</a
+          >
+        </li>
+        <li>teaching classes at General Assembly</li>
+        <li>judging the Sloan Sports Analytics Hackathon</li>
+        <li>speaking at over two dozen colleges and universities</li>
+        <li>
+          rambling on podcasts about how post-ups are similar to running backs
+        </li>
+      </p>
+
+      <p class="text-content">
+        I wrote a paper on how you can actually determine how well quarterbacks
+        in the NFL make decisions. (<a
+          href="https://realkvanderbush.github.io/QBViz/QBViz_paper.pdf"
+          >view paper here</a
+        >).
+      </p>
+
+      <p class="text-content">
+        I've played competitive golf for most of my adult life, and also enjoy
+        playing poker and drinking wine with my wife, brothers, and friends.
+      </p>
+
+      <p class="text-content">
+        You can find me on
+        <a href="http://in.linkedin.com/in/coryjez/">LinkedIn</a>, or email me
+        <a href="mailto:cory.jez1@gmail.com?Subject=Hey%20Cory" target="_top"
+          >here</a
+        >.
+      </p>
+
+      <p class="text-content">Let's get in touch!</p>
+
+      <p class="text-content">- Cory</p>
+      <br />
+    </div>
+  </div>
+</div>
+{% endblock %}
