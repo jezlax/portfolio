@@ -4,10 +4,10 @@ $(function () {
     strings: [
       "pip install cjez.human<br/>" +
         "><span class='caret'>$</span> skills: full stack data scientist... data eng, machine learning, data viz, web dev<br/> ^100" +
-        "><span class='caret'>$</span> job: Director of Analytics at <a href='https://www.austinfc.com/'>Austin FC</a><br/> ^100" +
-        "><span class='caret'>$</span> hobbies: wine, poker, golf, travel<br/> ^300" +
+        "><span class='caret'>$</span> job: Sporting Consultant: NBA, MLS, PGA Tour<br/> ^100" +
+        "><span class='caret'>$</span> hobbies: wine, poker, golf, travel, F1<br/> ^300" +
         "><span class='caret'>$</span> alias: cjez <br/>" +
-        "><span class='caret'>$</span> highlight:  <a href='https://www.kaggle.com/c/mens-machine-learning-competition-2019'>Kaggle silver medalist</a><br/>",
+        "><span class='caret'>$</span> tech stack: python, snowflake, flask, svelte, AWS<br/>",
     ],
     showCursor: true,
     cursorChar: "_",
